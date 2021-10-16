@@ -41,7 +41,7 @@ const Scan = () => {
         console.log("url is " + url);
         var DataRes = await axios({
           method: "post",
-          url: "http://127.0.0.1:5000/",
+          url: "http://scanet.azurewebsites.net/",
           data: {
             name: url, // This is the body part
           },
